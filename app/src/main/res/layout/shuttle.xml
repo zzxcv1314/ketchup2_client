@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/yellow3"
+    tools:context="com.example.greenjoa.imagetoserver1019.MainActivity">
+
+ <ImageButton
+     android:id="@+id/user1"
+     android:layout_width="70dp"
+     android:layout_height="68dp"
+     android:layout_marginTop="5dp"
+     android:background="@drawable/user" />
+
+ <TextView
+     android:paddingTop="50dp"
+     android:text="SHUTTLE"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:gravity="center_horizontal"
+     android:textColor="#800000"
+
+     android:textStyle="bold"
+     android:textSize="27sp"
+     android:paddingBottom="20dp"/>
+
+ <!--<ImageView-->
+     <!--android:layout_width="match_parent"-->
+     <!--android:layout_height="match_parent"-->
+     <!--android:id="@+id/imageView1"-->
+     <!--android:layout_weight="1" />-->
+
+ <ImageView
+     android:id="@+id/imageView2"
+     android:layout_width="wrap_content"
+     android:layout_height="212dp"
+     android:layout_marginTop="40dp"
+     android:src="@drawable/busroute" />
+
+ <ImageButton
+     android:layout_width="53dp"
+     android:layout_height="56dp"
+     android:layout_gravity="right"
+     android:layout_marginTop="50dp"
+     android:background="@drawable/arrow" />
+
+</LinearLayout>
